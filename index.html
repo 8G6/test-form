@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="run()">
+    <script src="js/select.js"></script>
+    <script src="js/main.js"></script>
+    <div class="align center box" > 
+        <div class="align left">
+
+        </div>
+        <div class="align right" id="box">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td id="sel">
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                       Male   <input type="checkbox" onclick="male()" id="male">
+                       Female <input type="checkbox" onclick="female()" id="female">
+                    </td>
+                </tr>
+            </table>
+            <button onclick="submit()">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

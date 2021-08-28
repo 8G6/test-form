@@ -7,6 +7,7 @@ body{
 h1,h2{
     text-align: center;
     font-family: 'Antic Slab', serif;
+    color:green;
 }
 .align{
     position:absolute;

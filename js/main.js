@@ -10,7 +10,7 @@ country     = 'Your country is  ' + dit[country]
 gender      = 'Your gender is   ' + gender
 let arr = [name,email,country,gender]
 console.log(arr)
-id('box').innerHTML='<br><br><br><br><h1>Form Submitted</h1>'
+id('box').innerHTML='<br><br><br><br><h1 style='color:#2dbc42'>Form Submitted</h1>'
 for(i=0;i<4;i++){
     id('box').innerHTML+=`<h2>${arr[i]}</h2>`
 }
